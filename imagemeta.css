@@ -1,0 +1,372 @@
+*, a:focus {
+    margin:0;
+    padding:0;
+    font-family: "Lucida Grande", Arial, sans-serif;
+		box-shadow: none;
+		outline:none;
+		outline-width: 0;
+}
+#imagemeta {
+	margin-right: 18px;
+}
+#imagemetas p {
+	width:60px;
+	overflow:hidden;
+	margin: 2px 0;
+	float:left;
+	font-weight:bold;
+	clear: left;
+	font-size: 12px;
+}
+#imagemetas {
+	border-collapse: collapse;
+	border-spacing: 0;
+	background: #F7F7F7;
+	width: 100%;
+	font-size: 12px;
+	line-height: 1.4em;
+}
+.wp-admin #imagemetas .edits {
+	float: right;
+}
+.wp-admin #imagemetas .edits li {
+	display: inline-block;
+	margin-left: 10px;
+	margin-bottom: 0;
+}
+.wp-admin #imagemetas select {
+	line-height: 26px;
+	height: auto;
+	font-size: 11px;
+	min-width: 200px;
+}
+#imagemetas tr.info td {
+	padding: 5px 5px 5px 10px;
+	font-size: 11px;
+}
+tr:nth-child(2n+1){
+  background-color: #FFF;
+}
+#imagemetahead tr, #imagemetahead tr th {
+	height: 20px;
+	background-color: #cfcfcf;
+	font-weight: bold;
+	text-align: left;
+}
+.sort_a, .sort_d {
+	width: 9px;
+	height: 9px;
+	display: inline-block;
+	margin: 0 2px;
+}
+.sort_a span, .sort_d span {
+	display: none;
+}
+.sort_a {
+	background-position: 9px 0;
+}
+.sort_d {
+	background-position: 9px 9px;
+}
+.sort_a.selected {
+	background-position: 0 0;
+}
+.sort_d.selected {
+	background-position: 0 9px;
+}
+	.sort_a:hover {
+	background-position: 18px 0;
+}
+.sort_d:hover {
+	background-position: 18px 9px;
+}
+.thumb {
+	height:45px;
+	width:60px;
+	overflow:hidden;
+	margin: 0 10px;
+}
+#status {
+    width:50%;
+    padding:10px;
+    outline:none;
+    height:36px;
+}
+div.pager {
+	clear: both;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	display: block;
+	height: 1px;
+}
+div.pager > span {
+	float: right;
+	font-size: 11px;
+}
+div.pager ul li {
+	width:18px;
+	height:18px;
+	background-color:#cfcfcf;
+	color: #444;
+	font-size: 11px;
+	display:block;
+	text-decoration: none;
+	text-align:center;
+	float:left;
+	margin: 0 3px;
+	text-decoration:none;
+	cursor: pointer;
+}
+div.pager ul li:first-child {
+	margin-left: 0;
+}
+div.pager ul li.current, div.pager ul li:hover {
+	background-color: #BD4825;
+	color: #FFF;
+}
+.editbutton {
+	width: auto !important;
+	margin: 0 4px !important;
+	float:right !important;
+	padding: 0 4px;
+	clear: none;
+	height:14px;
+	background-color:#DDD;
+	border:1px solid #AAA;
+	display:block;
+	text-decoration: none;
+	margin: 0 3px;
+}
+.editbutton a {
+	text-decoration:none;
+}
+.editbutton a:hover {
+	font-weight:bold;
+}
+.editmaster {
+	border:1px solid black;
+}
+.copyAcross {
+	margin-top:10px;
+}
+tr.row {
+	height: 70px;
+}
+tr.orange, #warning.orange {
+	background: #FFF;
+}
+#warning.orange {
+	border-left: 5px solid #BD4825;
+ }
+tr.orange:after {
+	content: " ";
+	width: 5px;
+	background: #BD4825;
+	height: 27px;
+	display: block;
+	position: absolute;
+	left: 0;
+}
+#warning.orange strong, #warning.orange a {
+	color: #BD4825;
+}
+#warning a {
+	cursor: pointer;
+}
+#warning {
+	padding: 10px;
+	margin-bottom: 10px;
+	display:none;
+}
+#imagemetas input, #imagemetas input.focusfield {
+	font-size: 12px;
+	padding-left: 20px;
+	box-shadow: none !important;
+	margin: 0 !important;
+}
+.focusField {
+	padding-left: 20px;
+	width: 300px;
+	border:solid 2px #73A6FF;
+	background:#EFF5FF;
+	color:#000;
+}
+.idleField {
+	width: 300px;
+	background:#EEE;
+	color: #6F6F6F;
+	border: solid 2px #DFDFDF;
+	display: block;
+	font-size: 12px;
+	line-height: 19px;
+}
+.upd {
+	margin:0;
+	padding:0;
+	float:left;
+	width:16px;
+	height:16px;
+}
+#imgsearch {
+	width: 210px;
+	float: right;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 10px;
+}
+/**** images ****/
+.sort_a {
+	background-image: url(_img/sort.gif);
+}
+.sort_d {
+	background-image: url(_img/sort.gif);
+}
+.updA {
+   	background-image: url(_img/updating.gif);
+   	margin:0;
+   	padding:0;
+   	float:left;
+   	width:16px;
+   	height:16px;
+   }
+.focusField {
+	background: url(_img/edit.png) no-repeat 2px center;
+}
+.idleField {
+	background: url(_img/okay.png) no-repeat 2px center;
+}
+.updateField {
+	padding-left: 20px;
+	 width: 300px;
+	background: url(_img/updating.gif) no-repeat 2px center;
+}
+
+/*********************************************************************************************************************
+*	For the kind of heart, a donation form
+*********************************************************************************************************************/
+#imagemeta div.footer {
+	display: flex; 
+	flex-direction: row; 
+	justify-content: space-between;
+	margin-top:30px;
+	border: 1px solid #DDD;
+	background-color: #FFF;
+	border-radius: 3px;
+	padding: 10px;
+}
+#imagemeta div.footer > div {
+	flex-grow: 1;
+	flex-basis: 0;
+	margin-top: 12px;
+}
+#imagemeta div.footer > div > a > img {
+	margin: 10px 0;
+}
+#imagemeta div.footer p {
+	font-size: 11px;
+	max-width: 95%;
+}
+footer small {
+	text-transform: uppercase;
+	font-style: normal;
+	font-size: 9px;
+	letter-spacing: 1px;
+}
+footer small a {
+	font-weight: bold;
+}
+#wpfooter {
+	position: relative;
+}
+/*********************************************************************************************************************
+*	UI Dialog - Purge
+*********************************************************************************************************************/
+#imagemeta .purge {
+	cursor: pointer;
+}
+#imagemeta tr.purged {
+	opacity: .2;
+}
+#imagemeta .ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-dialog-buttons.ui-draggable.ui-resizable {
+    background-color: #FFF;
+	box-shadow: 0 0 10px rgba(0,0,0,.25);
+	z-index: 2;
+}
+#imagemeta .ui-dialog .ui-dialog-titlebar.ui-widget-header.ui-corner-all.ui-helper-clearfix.ui-draggable-handle,
+#imagemeta .ui-dialog .ui-dialog-content.ui-widget-content,
+#imagemeta .ui-dialog .ui-dialog-buttonpane.ui-widget-content.ui-helper-clearfix {
+	padding: 10px;
+}
+#imagemeta .ui-dialog .ui-dialog-titlebar.ui-widget-header.ui-corner-all.ui-helper-clearfix.ui-draggable-handle {
+	background-color: #bd4825;
+}
+#imagemeta .ui-dialog .ui-dialog-buttonpane.ui-widget-content.ui-helper-clearfix {
+	background: #F7F7F7;
+}
+#imagemeta .ui-dialog .ui-dialog-title {
+	text-transform: uppercase;
+	color: #FFF;
+	font-weight: bold;
+}
+#imagemeta .ui-dialog .ui-dialog-titlebar-close{
+	background-image: url(_img/delete.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-color: #FFF;
+	background-size: 50% 50%;
+	text-indent: -999px;
+	overflow: hidden;
+	display: block;
+	width: 20px;
+	height: 20px;
+	border: none;
+	float: right;   
+}
+#imagemeta .ui-dialog .ui-dialog-buttonset{
+	text-align: right;
+}
+#imagemeta .ui-dialog button.ui-button.ui-widget.ui-state-default.ui-corner-all.ui-button-text-only {
+	background: #BD4825;
+	width: 80px;
+	height: 20px;
+	color: #FFF;
+	border: none;
+	text-transform: uppercase;
+}
+#imagemeta .ui-dialog button {
+	opacity: .95;
+	transition: opacity .25s ease-in-out;
+  -moz-transition: opacity .25s ease-in-out;
+	-webkit-transition: opacity .25s ease-in-out;
+	cursor: pointer;
+	font-weight: bold;
+}
+#imagemeta .ui-dialog button:hover {
+	opacity: 1;
+}
+#imagemeta .ui-dialog ul {
+	list-style: none;
+	margin-top: 10px;
+  font-size: 11px;
+}
+#imagemeta .ui-dialog ul li {
+	padding-left: 1em; 
+  text-indent: -.7em;
+}
+#imagemeta .ui-dialog ul li span {
+	float: right;
+}
+#imagemeta .ui-dialog ul li::before {
+  content: "\2022 ";
+	color: #BD4825;
+	padding-right: 5px;
+}
+#imagemeta .ui-widget-overlay.ui-front {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	z-index: 1;
+	background-color: rgba(255,255,255,.5);
+}
